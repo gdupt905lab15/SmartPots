@@ -25,6 +25,5 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
-    compile 'com.aurelhubert:ahbottomnavigation:2.0.6'//底部导航栏
     testCompile 'junit:junit:4.12'
 }
