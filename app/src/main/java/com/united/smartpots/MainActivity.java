@@ -87,11 +87,26 @@ public class MainActivity extends AppCompatActivity{
             }
         });
 
-
-
-
+    }
+    private void hideFragments (FragmentTransaction transaction){
+        if (potFragment!=null){
+            transaction.hide(potFragment);
+        }
+        if (socialFragment!=null){
+            transaction.hide(socialFragment);
+        }
+        if (moreFragment!=null){
+            transaction.hide(moreFragment);
+        }
+        if (homeFragment!=null){
+            transaction.hide(homeFragment);
+        }
+        if (talkFragment!=null){
+            transaction.hide(talkFragment);
+        }
 
     }
+
 
 
 
